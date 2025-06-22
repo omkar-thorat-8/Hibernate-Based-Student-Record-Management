@@ -1,49 +1,40 @@
-Hibernate-Based Student Record Management System<br><br>
+# 🎓 Hibernate-Based Student Record Management System
 
-This project is a Java-based Student Record Management System developed using Hibernate ORM for seamless database interaction.<br>
-It allows users to add, update, delete, and view student records with a clean separation between data access and business logic layers.<br><br>
+This repository contains a **Student Record Management System** built using **Java** and **Hibernate ORM**. It demonstrates how to manage student data efficiently by performing CRUD (Create, Read, Update, Delete) operations on a database using Hibernate.
 
-🔧 Technologies Used:<br>
+## 💡 Project Overview
+This application provides a simple and effective way to manage student records like student ID, name, course, and marks.<br>
+It uses Hibernate for object-relational mapping, making database interactions seamless and clean.
 
-Java (JDK 8+)<br>
+## 🛠 Technologies Used
+- Java (Core)<br>
+- Hibernate ORM<br>
+- MySQL (or any RDBMS)<br>
+- Maven (for dependency management)<br>
+- JDBC<br>
+- IDE: IntelliJ IDEA / Eclipse<br>
 
-Hibernate ORM<br>
+## 🔍 Features
+- Add new student records<br>
+- View all student records<br>
+- Update student details<br>
+- Delete student from the database<br>
+- Data persistence using Hibernate<br>
+- Console-based user interaction (can be extended to GUI or web app)<br>
 
-MySQL (or any relational DB)<br>
+## 🧱 Database Structure
+- Table: `student`<br>
+  Columns: `id`, `name`, `email`, `course`, `marks`
 
-JDBC<br>
+## 🚀 How to Run
+1. Clone the repository<br>
+2. Set up MySQL database and update `hibernate.cfg.xml` with your credentials<br>
+3. Open the project in your IDE<br>
+4. Build the project using Maven<br>
+5. Run the main class to start the application
 
-Maven (optional)<br>
-
-Console-based UI (or Swing/Servlets, if added)<br><br>
-
-🧑‍🎓 Features:<br>
-
-Add new student records<br>
-
-View all student records<br>
-
-Update existing student details<br>
-
-Delete student entries<br>
-
-Database connection via Hibernate configuration<br><br>
-
-📁 Project Structure:<br>
-
-Student.java – Entity class<br>
-
-hibernate.cfg.xml – Hibernate configuration<br>
-
-StudentDao.java – Data access layer<br>
-
-Main.java – Main class to test functionality<br><br>
-
-🚀 Getting Started:<br>
-
-Clone the repository<br>
-
-Configure your hibernate.cfg.xml with DB credentials<br>
-
-Run the Main class to interact with the system<br><br>
+## 📁 Folder Structure
+- `src/main/java` – Java source files<br>
+- `src/main/resources` – Hibernate configuration<br>
+- `pom.xml` – Maven configuration file<br>
 
