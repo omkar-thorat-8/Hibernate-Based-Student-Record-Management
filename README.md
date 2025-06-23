@@ -12,7 +12,7 @@ It uses Hibernate for object-relational mapping, making database interactions se
 - MySQL (or any RDBMS)<br>
 - Maven (for dependency management)<br>
 - JDBC<br>
-- IDE: IntelliJ IDEA / Eclipse<br>
+- IDE: Eclipse / IntelliJ IDEA <br>
 
 ## 🔍 Features
 - Add new student records<br>
