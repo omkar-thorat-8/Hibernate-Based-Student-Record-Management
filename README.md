@@ -4,7 +4,7 @@ This repository contains a **Student Record Management System** built using **Ja
 
 ## 💡 Project Overview
 This application provides a simple and effective way to manage student records like student ID, name, course, and marks.<br>
-It uses Hibernate for object-relational mapping, making database interactions seamless and clean.
+It uses Hibernate for object-relational mapping, making database interactions seamless and clean. 
 
 ## 🛠 Technologies Used
 - Java (Core)<br>
